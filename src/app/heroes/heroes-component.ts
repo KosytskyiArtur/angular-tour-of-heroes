@@ -4,10 +4,10 @@ import { HEROES } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes-component',
-  templateUrl: './heroes-component.component.html',
-  styleUrls: ['./heroes-component.component.scss']
+  templateUrl: './heroes-component.html',
+  styleUrls: ['./heroes-component.scss']
 })
-export class HeroesComponentComponent implements OnInit {
+export class HeroesComponent implements OnInit {
 
   heroes = HEROES;
 
